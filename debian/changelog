@@ -1,0 +1,34 @@
+lutok (0.4+dfsg-4) unstable; urgency=medium
+
+  [ Helmut Grohne ]
+  * Fix cross-builds (Closes: #942083)
+    + Pass --host to ./configure.
+    + Fix build/host and gnu-type/multiarch confusion.
+
+  [ Nicolas Braud-Santoni ]
+  * debian/control: Mark liblutok-doc as Multi-Arch: foreign
+
+ -- Nicolas Braud-Santoni <nicoo@debian.org>  Wed, 30 Oct 2019 14:52:05 +0100
+
+lutok (0.4+dfsg-3) unstable; urgency=medium
+
+  * liblutok3: Revert adding the symbols file, override lintian warning
+    C++ symbol names vary across architectures, and using pkgkde_symbolshelper
+    does not seem like it would improve the situation.
+
+ -- Nicolas Braud-Santoni <nicoo@debian.org>  Fri, 18 Oct 2019 20:00:49 +0200
+
+lutok (0.4+dfsg-2) unstable; urgency=medium
+
+  * liblutok3: Add symbols file
+  * Declare compliance with policy v4.4.1
+    No change required.
+  * Source-only upload should allow lutok to transition to testing.
+
+ -- Nicolas Braud-Santoni <nicoo@debian.org>  Wed, 16 Oct 2019 17:44:56 +0200
+
+lutok (0.4+dfsg-1) unstable; urgency=low
+
+  * Initial release (Closes: #932350)
+
+ -- Nicolas Braud-Santoni <nicoo@debian.org>  Fri, 02 Aug 2019 00:52:59 +0200

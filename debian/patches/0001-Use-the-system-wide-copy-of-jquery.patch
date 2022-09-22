@@ -1,0 +1,749 @@
+From: Nicolas Braud-Santoni <nicolas@braud-santoni.eu>
+Date: Thu, 18 Jul 2019 13:02:18 +0200
+Subject: Use the system-wide copy of jquery
+
+---
+ api-docs/html/a00001.html                | 2 +-
+ api-docs/html/a00002.html                | 2 +-
+ api-docs/html/a00003.html                | 2 +-
+ api-docs/html/a00004.html                | 2 +-
+ api-docs/html/a00005.html                | 2 +-
+ api-docs/html/a00006.html                | 2 +-
+ api-docs/html/a00007.html                | 2 +-
+ api-docs/html/a00008.html                | 2 +-
+ api-docs/html/a00009.html                | 2 +-
+ api-docs/html/a00010.html                | 2 +-
+ api-docs/html/a00011.html                | 2 +-
+ api-docs/html/a00013.html                | 2 +-
+ api-docs/html/a00013_source.html         | 2 +-
+ api-docs/html/a00016.html                | 2 +-
+ api-docs/html/a00016_source.html         | 2 +-
+ api-docs/html/a00019.html                | 2 +-
+ api-docs/html/a00019_source.html         | 2 +-
+ api-docs/html/a00022.html                | 2 +-
+ api-docs/html/a00022_source.html         | 2 +-
+ api-docs/html/a00025.html                | 2 +-
+ api-docs/html/a00025_source.html         | 2 +-
+ api-docs/html/a00028.html                | 2 +-
+ api-docs/html/a00028_source.html         | 2 +-
+ api-docs/html/a00031.html                | 2 +-
+ api-docs/html/a00031_source.html         | 2 +-
+ api-docs/html/a00032.html                | 2 +-
+ api-docs/html/a00033.html                | 2 +-
+ api-docs/html/a00034.html                | 2 +-
+ api-docs/html/a00035.html                | 2 +-
+ api-docs/html/a00039.html                | 2 +-
+ api-docs/html/a00040.html                | 2 +-
+ api-docs/html/a00041.html                | 2 +-
+ api-docs/html/a00042.html                | 2 +-
+ api-docs/html/a00043.html                | 2 +-
+ api-docs/html/a00044.html                | 2 +-
+ api-docs/html/a00045.html                | 2 +-
+ api-docs/html/a00046.html                | 2 +-
+ api-docs/html/a00047.html                | 2 +-
+ api-docs/html/a00048.html                | 2 +-
+ api-docs/html/a00049.html                | 2 +-
+ api-docs/html/annotated.html             | 2 +-
+ api-docs/html/classes.html               | 2 +-
+ api-docs/html/files.html                 | 2 +-
+ api-docs/html/functions.html             | 2 +-
+ api-docs/html/functions_func.html        | 2 +-
+ api-docs/html/functions_vars.html        | 2 +-
+ api-docs/html/globals.html               | 2 +-
+ api-docs/html/globals_defs.html          | 2 +-
+ api-docs/html/hierarchy.html             | 2 +-
+ api-docs/html/index.html                 | 2 +-
+ api-docs/html/namespacemembers.html      | 2 +-
+ api-docs/html/namespacemembers_func.html | 2 +-
+ api-docs/html/namespaces.html            | 2 +-
+ 53 files changed, 53 insertions(+), 53 deletions(-)
+
+diff --git a/api-docs/html/a00001.html b/api-docs/html/a00001.html
+index 446580b..c7b7995 100644
+--- a/api-docs/html/a00001.html
++++ b/api-docs/html/a00001.html
+@@ -5,7 +5,7 @@
+ <meta http-equiv="X-UA-Compatible" content="IE=9"/>
+ <title>Lutok: anonymous_namespace{test_utils.hpp}::stack_balance_checker Class Reference</title>
+ <link href="tabs.css" rel="stylesheet" type="text/css"/>
+-<script type="text/javascript" src="jquery.js"></script>
++<script type="text/javascript" src="/usr/share/javascript/jquery/jquery.min.js"></script>
+ <script type="text/javascript" src="dynsections.js"></script>
+ <link href="search/search.css" rel="stylesheet" type="text/css"/>
+ <script type="text/javascript" src="search/search.js"></script>
+diff --git a/api-docs/html/a00002.html b/api-docs/html/a00002.html
+index 82ed441..4c7f20a 100644
+--- a/api-docs/html/a00002.html
++++ b/api-docs/html/a00002.html
+@@ -5,7 +5,7 @@
+ <meta http-equiv="X-UA-Compatible" content="IE=9"/>
+ <title>Lutok: lutok::api_error Class Reference</title>
+ <link href="tabs.css" rel="stylesheet" type="text/css"/>
+-<script type="text/javascript" src="jquery.js"></script>
++<script type="text/javascript" src="/usr/share/javascript/jquery/jquery.min.js"></script>
+ <script type="text/javascript" src="dynsections.js"></script>
+ <link href="search/search.css" rel="stylesheet" type="text/css"/>
+ <script type="text/javascript" src="search/search.js"></script>
+diff --git a/api-docs/html/a00003.html b/api-docs/html/a00003.html
+index c1e7b57..800c5d2 100644
+--- a/api-docs/html/a00003.html
++++ b/api-docs/html/a00003.html
+@@ -5,7 +5,7 @@
+ <meta http-equiv="X-UA-Compatible" content="IE=9"/>
+ <title>Lutok: lutok::debug Class Reference</title>
+ <link href="tabs.css" rel="stylesheet" type="text/css"/>
+-<script type="text/javascript" src="jquery.js"></script>
++<script type="text/javascript" src="/usr/share/javascript/jquery/jquery.min.js"></script>
+ <script type="text/javascript" src="dynsections.js"></script>
+ <link href="search/search.css" rel="stylesheet" type="text/css"/>
+ <script type="text/javascript" src="search/search.js"></script>
+diff --git a/api-docs/html/a00004.html b/api-docs/html/a00004.html
+index 97ae707..2ddcef9 100644
+--- a/api-docs/html/a00004.html
++++ b/api-docs/html/a00004.html
+@@ -5,7 +5,7 @@
+ <meta http-equiv="X-UA-Compatible" content="IE=9"/>
+ <title>Lutok: lutok::debug::impl Struct Reference</title>
+ <link href="tabs.css" rel="stylesheet" type="text/css"/>
+-<script type="text/javascript" src="jquery.js"></script>
++<script type="text/javascript" src="/usr/share/javascript/jquery/jquery.min.js"></script>
+ <script type="text/javascript" src="dynsections.js"></script>
+ <link href="search/search.css" rel="stylesheet" type="text/css"/>
+ <script type="text/javascript" src="search/search.js"></script>
+diff --git a/api-docs/html/a00005.html b/api-docs/html/a00005.html
+index 8c1cbce..de7ab43 100644
+--- a/api-docs/html/a00005.html
++++ b/api-docs/html/a00005.html
+@@ -5,7 +5,7 @@
+ <meta http-equiv="X-UA-Compatible" content="IE=9"/>
+ <title>Lutok: lutok::error Class Reference</title>
+ <link href="tabs.css" rel="stylesheet" type="text/css"/>
+-<script type="text/javascript" src="jquery.js"></script>
++<script type="text/javascript" src="/usr/share/javascript/jquery/jquery.min.js"></script>
+ <script type="text/javascript" src="dynsections.js"></script>
+ <link href="search/search.css" rel="stylesheet" type="text/css"/>
+ <script type="text/javascript" src="search/search.js"></script>
+diff --git a/api-docs/html/a00006.html b/api-docs/html/a00006.html
+index 0b98289..04053de 100644
+--- a/api-docs/html/a00006.html
++++ b/api-docs/html/a00006.html
+@@ -5,7 +5,7 @@
+ <meta http-equiv="X-UA-Compatible" content="IE=9"/>
+ <title>Lutok: lutok::file_not_found_error Class Reference</title>
+ <link href="tabs.css" rel="stylesheet" type="text/css"/>
+-<script type="text/javascript" src="jquery.js"></script>
++<script type="text/javascript" src="/usr/share/javascript/jquery/jquery.min.js"></script>
+ <script type="text/javascript" src="dynsections.js"></script>
+ <link href="search/search.css" rel="stylesheet" type="text/css"/>
+ <script type="text/javascript" src="search/search.js"></script>
+diff --git a/api-docs/html/a00007.html b/api-docs/html/a00007.html
+index b19b049..da12108 100644
+--- a/api-docs/html/a00007.html
++++ b/api-docs/html/a00007.html
+@@ -5,7 +5,7 @@
+ <meta http-equiv="X-UA-Compatible" content="IE=9"/>
+ <title>Lutok: lutok::stack_cleaner Class Reference</title>
+ <link href="tabs.css" rel="stylesheet" type="text/css"/>
+-<script type="text/javascript" src="jquery.js"></script>
++<script type="text/javascript" src="/usr/share/javascript/jquery/jquery.min.js"></script>
+ <script type="text/javascript" src="dynsections.js"></script>
+ <link href="search/search.css" rel="stylesheet" type="text/css"/>
+ <script type="text/javascript" src="search/search.js"></script>
+diff --git a/api-docs/html/a00008.html b/api-docs/html/a00008.html
+index 7e2a0d0..3d72f4e 100644
+--- a/api-docs/html/a00008.html
++++ b/api-docs/html/a00008.html
+@@ -5,7 +5,7 @@
+ <meta http-equiv="X-UA-Compatible" content="IE=9"/>
+ <title>Lutok: lutok::stack_cleaner::impl Struct Reference</title>
+ <link href="tabs.css" rel="stylesheet" type="text/css"/>
+-<script type="text/javascript" src="jquery.js"></script>
++<script type="text/javascript" src="/usr/share/javascript/jquery/jquery.min.js"></script>
+ <script type="text/javascript" src="dynsections.js"></script>
+ <link href="search/search.css" rel="stylesheet" type="text/css"/>
+ <script type="text/javascript" src="search/search.js"></script>
+diff --git a/api-docs/html/a00009.html b/api-docs/html/a00009.html
+index 8b13b8e..d2b1d55 100644
+--- a/api-docs/html/a00009.html
++++ b/api-docs/html/a00009.html
+@@ -5,7 +5,7 @@
+ <meta http-equiv="X-UA-Compatible" content="IE=9"/>
+ <title>Lutok: lutok::state Class Reference</title>
+ <link href="tabs.css" rel="stylesheet" type="text/css"/>
+-<script type="text/javascript" src="jquery.js"></script>
++<script type="text/javascript" src="/usr/share/javascript/jquery/jquery.min.js"></script>
+ <script type="text/javascript" src="dynsections.js"></script>
+ <link href="search/search.css" rel="stylesheet" type="text/css"/>
+ <script type="text/javascript" src="search/search.js"></script>
+diff --git a/api-docs/html/a00010.html b/api-docs/html/a00010.html
+index 8023e9e..3271a78 100644
+--- a/api-docs/html/a00010.html
++++ b/api-docs/html/a00010.html
+@@ -5,7 +5,7 @@
+ <meta http-equiv="X-UA-Compatible" content="IE=9"/>
+ <title>Lutok: lutok::state::impl Struct Reference</title>
+ <link href="tabs.css" rel="stylesheet" type="text/css"/>
+-<script type="text/javascript" src="jquery.js"></script>
++<script type="text/javascript" src="/usr/share/javascript/jquery/jquery.min.js"></script>
+ <script type="text/javascript" src="dynsections.js"></script>
+ <link href="search/search.css" rel="stylesheet" type="text/css"/>
+ <script type="text/javascript" src="search/search.js"></script>
+diff --git a/api-docs/html/a00011.html b/api-docs/html/a00011.html
+index a496d73..ebab8d7 100644
+--- a/api-docs/html/a00011.html
++++ b/api-docs/html/a00011.html
+@@ -5,7 +5,7 @@
+ <meta http-equiv="X-UA-Compatible" content="IE=9"/>
+ <title>Lutok: lutok::state_c_gate Class Reference</title>
+ <link href="tabs.css" rel="stylesheet" type="text/css"/>
+-<script type="text/javascript" src="jquery.js"></script>
++<script type="text/javascript" src="/usr/share/javascript/jquery/jquery.min.js"></script>
+ <script type="text/javascript" src="dynsections.js"></script>
+ <link href="search/search.css" rel="stylesheet" type="text/css"/>
+ <script type="text/javascript" src="search/search.js"></script>
+diff --git a/api-docs/html/a00013.html b/api-docs/html/a00013.html
+index 8bd7230..b8e9b95 100644
+--- a/api-docs/html/a00013.html
++++ b/api-docs/html/a00013.html
+@@ -5,7 +5,7 @@
+ <meta http-equiv="X-UA-Compatible" content="IE=9"/>
+ <title>Lutok: c_gate.hpp File Reference</title>
+ <link href="tabs.css" rel="stylesheet" type="text/css"/>
+-<script type="text/javascript" src="jquery.js"></script>
++<script type="text/javascript" src="/usr/share/javascript/jquery/jquery.min.js"></script>
+ <script type="text/javascript" src="dynsections.js"></script>
+ <link href="search/search.css" rel="stylesheet" type="text/css"/>
+ <script type="text/javascript" src="search/search.js"></script>
+diff --git a/api-docs/html/a00013_source.html b/api-docs/html/a00013_source.html
+index 7f4c7a7..d03d098 100644
+--- a/api-docs/html/a00013_source.html
++++ b/api-docs/html/a00013_source.html
+@@ -5,7 +5,7 @@
+ <meta http-equiv="X-UA-Compatible" content="IE=9"/>
+ <title>Lutok: c_gate.hpp Source File</title>
+ <link href="tabs.css" rel="stylesheet" type="text/css"/>
+-<script type="text/javascript" src="jquery.js"></script>
++<script type="text/javascript" src="/usr/share/javascript/jquery/jquery.min.js"></script>
+ <script type="text/javascript" src="dynsections.js"></script>
+ <link href="search/search.css" rel="stylesheet" type="text/css"/>
+ <script type="text/javascript" src="search/search.js"></script>
+diff --git a/api-docs/html/a00016.html b/api-docs/html/a00016.html
+index 3382681..a3725fd 100644
+--- a/api-docs/html/a00016.html
++++ b/api-docs/html/a00016.html
+@@ -5,7 +5,7 @@
+ <meta http-equiv="X-UA-Compatible" content="IE=9"/>
+ <title>Lutok: debug.hpp File Reference</title>
+ <link href="tabs.css" rel="stylesheet" type="text/css"/>
+-<script type="text/javascript" src="jquery.js"></script>
++<script type="text/javascript" src="/usr/share/javascript/jquery/jquery.min.js"></script>
+ <script type="text/javascript" src="dynsections.js"></script>
+ <link href="search/search.css" rel="stylesheet" type="text/css"/>
+ <script type="text/javascript" src="search/search.js"></script>
+diff --git a/api-docs/html/a00016_source.html b/api-docs/html/a00016_source.html
+index 75040d7..c13cef7 100644
+--- a/api-docs/html/a00016_source.html
++++ b/api-docs/html/a00016_source.html
+@@ -5,7 +5,7 @@
+ <meta http-equiv="X-UA-Compatible" content="IE=9"/>
+ <title>Lutok: debug.hpp Source File</title>
+ <link href="tabs.css" rel="stylesheet" type="text/css"/>
+-<script type="text/javascript" src="jquery.js"></script>
++<script type="text/javascript" src="/usr/share/javascript/jquery/jquery.min.js"></script>
+ <script type="text/javascript" src="dynsections.js"></script>
+ <link href="search/search.css" rel="stylesheet" type="text/css"/>
+ <script type="text/javascript" src="search/search.js"></script>
+diff --git a/api-docs/html/a00019.html b/api-docs/html/a00019.html
+index 61f9165..c116f9c 100644
+--- a/api-docs/html/a00019.html
++++ b/api-docs/html/a00019.html
+@@ -5,7 +5,7 @@
+ <meta http-equiv="X-UA-Compatible" content="IE=9"/>
+ <title>Lutok: exceptions.hpp File Reference</title>
+ <link href="tabs.css" rel="stylesheet" type="text/css"/>
+-<script type="text/javascript" src="jquery.js"></script>
++<script type="text/javascript" src="/usr/share/javascript/jquery/jquery.min.js"></script>
+ <script type="text/javascript" src="dynsections.js"></script>
+ <link href="search/search.css" rel="stylesheet" type="text/css"/>
+ <script type="text/javascript" src="search/search.js"></script>
+diff --git a/api-docs/html/a00019_source.html b/api-docs/html/a00019_source.html
+index 0bdfa94..926c32a 100644
+--- a/api-docs/html/a00019_source.html
++++ b/api-docs/html/a00019_source.html
+@@ -5,7 +5,7 @@
+ <meta http-equiv="X-UA-Compatible" content="IE=9"/>
+ <title>Lutok: exceptions.hpp Source File</title>
+ <link href="tabs.css" rel="stylesheet" type="text/css"/>
+-<script type="text/javascript" src="jquery.js"></script>
++<script type="text/javascript" src="/usr/share/javascript/jquery/jquery.min.js"></script>
+ <script type="text/javascript" src="dynsections.js"></script>
+ <link href="search/search.css" rel="stylesheet" type="text/css"/>
+ <script type="text/javascript" src="search/search.js"></script>
+diff --git a/api-docs/html/a00022.html b/api-docs/html/a00022.html
+index 1d81da8..7fe7f9e 100644
+--- a/api-docs/html/a00022.html
++++ b/api-docs/html/a00022.html
+@@ -5,7 +5,7 @@
+ <meta http-equiv="X-UA-Compatible" content="IE=9"/>
+ <title>Lutok: operations.hpp File Reference</title>
+ <link href="tabs.css" rel="stylesheet" type="text/css"/>
+-<script type="text/javascript" src="jquery.js"></script>
++<script type="text/javascript" src="/usr/share/javascript/jquery/jquery.min.js"></script>
+ <script type="text/javascript" src="dynsections.js"></script>
+ <link href="search/search.css" rel="stylesheet" type="text/css"/>
+ <script type="text/javascript" src="search/search.js"></script>
+diff --git a/api-docs/html/a00022_source.html b/api-docs/html/a00022_source.html
+index fa1f4aa..2613bd9 100644
+--- a/api-docs/html/a00022_source.html
++++ b/api-docs/html/a00022_source.html
+@@ -5,7 +5,7 @@
+ <meta http-equiv="X-UA-Compatible" content="IE=9"/>
+ <title>Lutok: operations.hpp Source File</title>
+ <link href="tabs.css" rel="stylesheet" type="text/css"/>
+-<script type="text/javascript" src="jquery.js"></script>
++<script type="text/javascript" src="/usr/share/javascript/jquery/jquery.min.js"></script>
+ <script type="text/javascript" src="dynsections.js"></script>
+ <link href="search/search.css" rel="stylesheet" type="text/css"/>
+ <script type="text/javascript" src="search/search.js"></script>
+diff --git a/api-docs/html/a00025.html b/api-docs/html/a00025.html
+index f356fa0..c89e03c 100644
+--- a/api-docs/html/a00025.html
++++ b/api-docs/html/a00025.html
+@@ -5,7 +5,7 @@
+ <meta http-equiv="X-UA-Compatible" content="IE=9"/>
+ <title>Lutok: stack_cleaner.hpp File Reference</title>
+ <link href="tabs.css" rel="stylesheet" type="text/css"/>
+-<script type="text/javascript" src="jquery.js"></script>
++<script type="text/javascript" src="/usr/share/javascript/jquery/jquery.min.js"></script>
+ <script type="text/javascript" src="dynsections.js"></script>
+ <link href="search/search.css" rel="stylesheet" type="text/css"/>
+ <script type="text/javascript" src="search/search.js"></script>
+diff --git a/api-docs/html/a00025_source.html b/api-docs/html/a00025_source.html
+index ad7c938..f7b41f8 100644
+--- a/api-docs/html/a00025_source.html
++++ b/api-docs/html/a00025_source.html
+@@ -5,7 +5,7 @@
+ <meta http-equiv="X-UA-Compatible" content="IE=9"/>
+ <title>Lutok: stack_cleaner.hpp Source File</title>
+ <link href="tabs.css" rel="stylesheet" type="text/css"/>
+-<script type="text/javascript" src="jquery.js"></script>
++<script type="text/javascript" src="/usr/share/javascript/jquery/jquery.min.js"></script>
+ <script type="text/javascript" src="dynsections.js"></script>
+ <link href="search/search.css" rel="stylesheet" type="text/css"/>
+ <script type="text/javascript" src="search/search.js"></script>
+diff --git a/api-docs/html/a00028.html b/api-docs/html/a00028.html
+index 7d3882b..08e70e5 100644
+--- a/api-docs/html/a00028.html
++++ b/api-docs/html/a00028.html
+@@ -5,7 +5,7 @@
+ <meta http-equiv="X-UA-Compatible" content="IE=9"/>
+ <title>Lutok: state.hpp File Reference</title>
+ <link href="tabs.css" rel="stylesheet" type="text/css"/>
+-<script type="text/javascript" src="jquery.js"></script>
++<script type="text/javascript" src="/usr/share/javascript/jquery/jquery.min.js"></script>
+ <script type="text/javascript" src="dynsections.js"></script>
+ <link href="search/search.css" rel="stylesheet" type="text/css"/>
+ <script type="text/javascript" src="search/search.js"></script>
+diff --git a/api-docs/html/a00028_source.html b/api-docs/html/a00028_source.html
+index fbb17c4..7f90caa 100644
+--- a/api-docs/html/a00028_source.html
++++ b/api-docs/html/a00028_source.html
+@@ -5,7 +5,7 @@
+ <meta http-equiv="X-UA-Compatible" content="IE=9"/>
+ <title>Lutok: state.hpp Source File</title>
+ <link href="tabs.css" rel="stylesheet" type="text/css"/>
+-<script type="text/javascript" src="jquery.js"></script>
++<script type="text/javascript" src="/usr/share/javascript/jquery/jquery.min.js"></script>
+ <script type="text/javascript" src="dynsections.js"></script>
+ <link href="search/search.css" rel="stylesheet" type="text/css"/>
+ <script type="text/javascript" src="search/search.js"></script>
+diff --git a/api-docs/html/a00031.html b/api-docs/html/a00031.html
+index b2b71a8..8bf8f84 100644
+--- a/api-docs/html/a00031.html
++++ b/api-docs/html/a00031.html
+@@ -5,7 +5,7 @@
+ <meta http-equiv="X-UA-Compatible" content="IE=9"/>
+ <title>Lutok: test_utils.hpp File Reference</title>
+ <link href="tabs.css" rel="stylesheet" type="text/css"/>
+-<script type="text/javascript" src="jquery.js"></script>
++<script type="text/javascript" src="/usr/share/javascript/jquery/jquery.min.js"></script>
+ <script type="text/javascript" src="dynsections.js"></script>
+ <link href="search/search.css" rel="stylesheet" type="text/css"/>
+ <script type="text/javascript" src="search/search.js"></script>
+diff --git a/api-docs/html/a00031_source.html b/api-docs/html/a00031_source.html
+index 0d47af8..964ad88 100644
+--- a/api-docs/html/a00031_source.html
++++ b/api-docs/html/a00031_source.html
+@@ -5,7 +5,7 @@
+ <meta http-equiv="X-UA-Compatible" content="IE=9"/>
+ <title>Lutok: test_utils.hpp Source File</title>
+ <link href="tabs.css" rel="stylesheet" type="text/css"/>
+-<script type="text/javascript" src="jquery.js"></script>
++<script type="text/javascript" src="/usr/share/javascript/jquery/jquery.min.js"></script>
+ <script type="text/javascript" src="dynsections.js"></script>
+ <link href="search/search.css" rel="stylesheet" type="text/css"/>
+ <script type="text/javascript" src="search/search.js"></script>
+diff --git a/api-docs/html/a00032.html b/api-docs/html/a00032.html
+index 0e958b6..477fda2 100644
+--- a/api-docs/html/a00032.html
++++ b/api-docs/html/a00032.html
+@@ -5,7 +5,7 @@
+ <meta http-equiv="X-UA-Compatible" content="IE=9"/>
+ <title>Lutok: anonymous_namespace{operations_test.cpp} Namespace Reference</title>
+ <link href="tabs.css" rel="stylesheet" type="text/css"/>
+-<script type="text/javascript" src="jquery.js"></script>
++<script type="text/javascript" src="/usr/share/javascript/jquery/jquery.min.js"></script>
+ <script type="text/javascript" src="dynsections.js"></script>
+ <link href="search/search.css" rel="stylesheet" type="text/css"/>
+ <script type="text/javascript" src="search/search.js"></script>
+diff --git a/api-docs/html/a00033.html b/api-docs/html/a00033.html
+index 39fdc0f..d48787c 100644
+--- a/api-docs/html/a00033.html
++++ b/api-docs/html/a00033.html
+@@ -5,7 +5,7 @@
+ <meta http-equiv="X-UA-Compatible" content="IE=9"/>
+ <title>Lutok: anonymous_namespace{state.cpp} Namespace Reference</title>
+ <link href="tabs.css" rel="stylesheet" type="text/css"/>
+-<script type="text/javascript" src="jquery.js"></script>
++<script type="text/javascript" src="/usr/share/javascript/jquery/jquery.min.js"></script>
+ <script type="text/javascript" src="dynsections.js"></script>
+ <link href="search/search.css" rel="stylesheet" type="text/css"/>
+ <script type="text/javascript" src="search/search.js"></script>
+diff --git a/api-docs/html/a00034.html b/api-docs/html/a00034.html
+index 6e770ba..f10b5f7 100644
+--- a/api-docs/html/a00034.html
++++ b/api-docs/html/a00034.html
+@@ -5,7 +5,7 @@
+ <meta http-equiv="X-UA-Compatible" content="IE=9"/>
+ <title>Lutok: anonymous_namespace{state_test.cpp} Namespace Reference</title>
+ <link href="tabs.css" rel="stylesheet" type="text/css"/>
+-<script type="text/javascript" src="jquery.js"></script>
++<script type="text/javascript" src="/usr/share/javascript/jquery/jquery.min.js"></script>
+ <script type="text/javascript" src="dynsections.js"></script>
+ <link href="search/search.css" rel="stylesheet" type="text/css"/>
+ <script type="text/javascript" src="search/search.js"></script>
+diff --git a/api-docs/html/a00035.html b/api-docs/html/a00035.html
+index d831be0..f922202 100644
+--- a/api-docs/html/a00035.html
++++ b/api-docs/html/a00035.html
+@@ -5,7 +5,7 @@
+ <meta http-equiv="X-UA-Compatible" content="IE=9"/>
+ <title>Lutok: anonymous_namespace{test_utils.hpp} Namespace Reference</title>
+ <link href="tabs.css" rel="stylesheet" type="text/css"/>
+-<script type="text/javascript" src="jquery.js"></script>
++<script type="text/javascript" src="/usr/share/javascript/jquery/jquery.min.js"></script>
+ <script type="text/javascript" src="dynsections.js"></script>
+ <link href="search/search.css" rel="stylesheet" type="text/css"/>
+ <script type="text/javascript" src="search/search.js"></script>
+diff --git a/api-docs/html/a00039.html b/api-docs/html/a00039.html
+index 59aa347..0dbad46 100644
+--- a/api-docs/html/a00039.html
++++ b/api-docs/html/a00039.html
+@@ -5,7 +5,7 @@
+ <meta http-equiv="X-UA-Compatible" content="IE=9"/>
+ <title>Lutok: Member List</title>
+ <link href="tabs.css" rel="stylesheet" type="text/css"/>
+-<script type="text/javascript" src="jquery.js"></script>
++<script type="text/javascript" src="/usr/share/javascript/jquery/jquery.min.js"></script>
+ <script type="text/javascript" src="dynsections.js"></script>
+ <link href="search/search.css" rel="stylesheet" type="text/css"/>
+ <script type="text/javascript" src="search/search.js"></script>
+diff --git a/api-docs/html/a00040.html b/api-docs/html/a00040.html
+index bc981ce..6e39da6 100644
+--- a/api-docs/html/a00040.html
++++ b/api-docs/html/a00040.html
+@@ -5,7 +5,7 @@
+ <meta http-equiv="X-UA-Compatible" content="IE=9"/>
+ <title>Lutok: Member List</title>
+ <link href="tabs.css" rel="stylesheet" type="text/css"/>
+-<script type="text/javascript" src="jquery.js"></script>
++<script type="text/javascript" src="/usr/share/javascript/jquery/jquery.min.js"></script>
+ <script type="text/javascript" src="dynsections.js"></script>
+ <link href="search/search.css" rel="stylesheet" type="text/css"/>
+ <script type="text/javascript" src="search/search.js"></script>
+diff --git a/api-docs/html/a00041.html b/api-docs/html/a00041.html
+index 620c123..e2365cf 100644
+--- a/api-docs/html/a00041.html
++++ b/api-docs/html/a00041.html
+@@ -5,7 +5,7 @@
+ <meta http-equiv="X-UA-Compatible" content="IE=9"/>
+ <title>Lutok: Member List</title>
+ <link href="tabs.css" rel="stylesheet" type="text/css"/>
+-<script type="text/javascript" src="jquery.js"></script>
++<script type="text/javascript" src="/usr/share/javascript/jquery/jquery.min.js"></script>
+ <script type="text/javascript" src="dynsections.js"></script>
+ <link href="search/search.css" rel="stylesheet" type="text/css"/>
+ <script type="text/javascript" src="search/search.js"></script>
+diff --git a/api-docs/html/a00042.html b/api-docs/html/a00042.html
+index 4250b14..45111d4 100644
+--- a/api-docs/html/a00042.html
++++ b/api-docs/html/a00042.html
+@@ -5,7 +5,7 @@
+ <meta http-equiv="X-UA-Compatible" content="IE=9"/>
+ <title>Lutok: Member List</title>
+ <link href="tabs.css" rel="stylesheet" type="text/css"/>
+-<script type="text/javascript" src="jquery.js"></script>
++<script type="text/javascript" src="/usr/share/javascript/jquery/jquery.min.js"></script>
+ <script type="text/javascript" src="dynsections.js"></script>
+ <link href="search/search.css" rel="stylesheet" type="text/css"/>
+ <script type="text/javascript" src="search/search.js"></script>
+diff --git a/api-docs/html/a00043.html b/api-docs/html/a00043.html
+index b889b64..040531a 100644
+--- a/api-docs/html/a00043.html
++++ b/api-docs/html/a00043.html
+@@ -5,7 +5,7 @@
+ <meta http-equiv="X-UA-Compatible" content="IE=9"/>
+ <title>Lutok: Member List</title>
+ <link href="tabs.css" rel="stylesheet" type="text/css"/>
+-<script type="text/javascript" src="jquery.js"></script>
++<script type="text/javascript" src="/usr/share/javascript/jquery/jquery.min.js"></script>
+ <script type="text/javascript" src="dynsections.js"></script>
+ <link href="search/search.css" rel="stylesheet" type="text/css"/>
+ <script type="text/javascript" src="search/search.js"></script>
+diff --git a/api-docs/html/a00044.html b/api-docs/html/a00044.html
+index 431fee5..2543fa7 100644
+--- a/api-docs/html/a00044.html
++++ b/api-docs/html/a00044.html
+@@ -5,7 +5,7 @@
+ <meta http-equiv="X-UA-Compatible" content="IE=9"/>
+ <title>Lutok: Member List</title>
+ <link href="tabs.css" rel="stylesheet" type="text/css"/>
+-<script type="text/javascript" src="jquery.js"></script>
++<script type="text/javascript" src="/usr/share/javascript/jquery/jquery.min.js"></script>
+ <script type="text/javascript" src="dynsections.js"></script>
+ <link href="search/search.css" rel="stylesheet" type="text/css"/>
+ <script type="text/javascript" src="search/search.js"></script>
+diff --git a/api-docs/html/a00045.html b/api-docs/html/a00045.html
+index 08cb3c4..493e792 100644
+--- a/api-docs/html/a00045.html
++++ b/api-docs/html/a00045.html
+@@ -5,7 +5,7 @@
+ <meta http-equiv="X-UA-Compatible" content="IE=9"/>
+ <title>Lutok: Member List</title>
+ <link href="tabs.css" rel="stylesheet" type="text/css"/>
+-<script type="text/javascript" src="jquery.js"></script>
++<script type="text/javascript" src="/usr/share/javascript/jquery/jquery.min.js"></script>
+ <script type="text/javascript" src="dynsections.js"></script>
+ <link href="search/search.css" rel="stylesheet" type="text/css"/>
+ <script type="text/javascript" src="search/search.js"></script>
+diff --git a/api-docs/html/a00046.html b/api-docs/html/a00046.html
+index b331e66..cf8bfae 100644
+--- a/api-docs/html/a00046.html
++++ b/api-docs/html/a00046.html
+@@ -5,7 +5,7 @@
+ <meta http-equiv="X-UA-Compatible" content="IE=9"/>
+ <title>Lutok: Member List</title>
+ <link href="tabs.css" rel="stylesheet" type="text/css"/>
+-<script type="text/javascript" src="jquery.js"></script>
++<script type="text/javascript" src="/usr/share/javascript/jquery/jquery.min.js"></script>
+ <script type="text/javascript" src="dynsections.js"></script>
+ <link href="search/search.css" rel="stylesheet" type="text/css"/>
+ <script type="text/javascript" src="search/search.js"></script>
+diff --git a/api-docs/html/a00047.html b/api-docs/html/a00047.html
+index d51a5f5..cbeb2ea 100644
+--- a/api-docs/html/a00047.html
++++ b/api-docs/html/a00047.html
+@@ -5,7 +5,7 @@
+ <meta http-equiv="X-UA-Compatible" content="IE=9"/>
+ <title>Lutok: Member List</title>
+ <link href="tabs.css" rel="stylesheet" type="text/css"/>
+-<script type="text/javascript" src="jquery.js"></script>
++<script type="text/javascript" src="/usr/share/javascript/jquery/jquery.min.js"></script>
+ <script type="text/javascript" src="dynsections.js"></script>
+ <link href="search/search.css" rel="stylesheet" type="text/css"/>
+ <script type="text/javascript" src="search/search.js"></script>
+diff --git a/api-docs/html/a00048.html b/api-docs/html/a00048.html
+index 7a7b695..6cd2614 100644
+--- a/api-docs/html/a00048.html
++++ b/api-docs/html/a00048.html
+@@ -5,7 +5,7 @@
+ <meta http-equiv="X-UA-Compatible" content="IE=9"/>
+ <title>Lutok: Member List</title>
+ <link href="tabs.css" rel="stylesheet" type="text/css"/>
+-<script type="text/javascript" src="jquery.js"></script>
++<script type="text/javascript" src="/usr/share/javascript/jquery/jquery.min.js"></script>
+ <script type="text/javascript" src="dynsections.js"></script>
+ <link href="search/search.css" rel="stylesheet" type="text/css"/>
+ <script type="text/javascript" src="search/search.js"></script>
+diff --git a/api-docs/html/a00049.html b/api-docs/html/a00049.html
+index 5473ea1..12cd74e 100644
+--- a/api-docs/html/a00049.html
++++ b/api-docs/html/a00049.html
+@@ -5,7 +5,7 @@
+ <meta http-equiv="X-UA-Compatible" content="IE=9"/>
+ <title>Lutok: Member List</title>
+ <link href="tabs.css" rel="stylesheet" type="text/css"/>
+-<script type="text/javascript" src="jquery.js"></script>
++<script type="text/javascript" src="/usr/share/javascript/jquery/jquery.min.js"></script>
+ <script type="text/javascript" src="dynsections.js"></script>
+ <link href="search/search.css" rel="stylesheet" type="text/css"/>
+ <script type="text/javascript" src="search/search.js"></script>
+diff --git a/api-docs/html/annotated.html b/api-docs/html/annotated.html
+index 906f2a1..e723833 100644
+--- a/api-docs/html/annotated.html
++++ b/api-docs/html/annotated.html
+@@ -5,7 +5,7 @@
+ <meta http-equiv="X-UA-Compatible" content="IE=9"/>
+ <title>Lutok: Class List</title>
+ <link href="tabs.css" rel="stylesheet" type="text/css"/>
+-<script type="text/javascript" src="jquery.js"></script>
++<script type="text/javascript" src="/usr/share/javascript/jquery/jquery.min.js"></script>
+ <script type="text/javascript" src="dynsections.js"></script>
+ <link href="search/search.css" rel="stylesheet" type="text/css"/>
+ <script type="text/javascript" src="search/search.js"></script>
+diff --git a/api-docs/html/classes.html b/api-docs/html/classes.html
+index 1d73199..dc1ab94 100644
+--- a/api-docs/html/classes.html
++++ b/api-docs/html/classes.html
+@@ -5,7 +5,7 @@
+ <meta http-equiv="X-UA-Compatible" content="IE=9"/>
+ <title>Lutok: Class Index</title>
+ <link href="tabs.css" rel="stylesheet" type="text/css"/>
+-<script type="text/javascript" src="jquery.js"></script>
++<script type="text/javascript" src="/usr/share/javascript/jquery/jquery.min.js"></script>
+ <script type="text/javascript" src="dynsections.js"></script>
+ <link href="search/search.css" rel="stylesheet" type="text/css"/>
+ <script type="text/javascript" src="search/search.js"></script>
+diff --git a/api-docs/html/files.html b/api-docs/html/files.html
+index 39f15d9..7fdda2d 100644
+--- a/api-docs/html/files.html
++++ b/api-docs/html/files.html
+@@ -5,7 +5,7 @@
+ <meta http-equiv="X-UA-Compatible" content="IE=9"/>
+ <title>Lutok: File List</title>
+ <link href="tabs.css" rel="stylesheet" type="text/css"/>
+-<script type="text/javascript" src="jquery.js"></script>
++<script type="text/javascript" src="/usr/share/javascript/jquery/jquery.min.js"></script>
+ <script type="text/javascript" src="dynsections.js"></script>
+ <link href="search/search.css" rel="stylesheet" type="text/css"/>
+ <script type="text/javascript" src="search/search.js"></script>
+diff --git a/api-docs/html/functions.html b/api-docs/html/functions.html
+index 577a43f..4a67dcc 100644
+--- a/api-docs/html/functions.html
++++ b/api-docs/html/functions.html
+@@ -5,7 +5,7 @@
+ <meta http-equiv="X-UA-Compatible" content="IE=9"/>
+ <title>Lutok: Class Members</title>
+ <link href="tabs.css" rel="stylesheet" type="text/css"/>
+-<script type="text/javascript" src="jquery.js"></script>
++<script type="text/javascript" src="/usr/share/javascript/jquery/jquery.min.js"></script>
+ <script type="text/javascript" src="dynsections.js"></script>
+ <link href="search/search.css" rel="stylesheet" type="text/css"/>
+ <script type="text/javascript" src="search/search.js"></script>
+diff --git a/api-docs/html/functions_func.html b/api-docs/html/functions_func.html
+index d5c5e95..402874f 100644
+--- a/api-docs/html/functions_func.html
++++ b/api-docs/html/functions_func.html
+@@ -5,7 +5,7 @@
+ <meta http-equiv="X-UA-Compatible" content="IE=9"/>
+ <title>Lutok: Class Members - Functions</title>
+ <link href="tabs.css" rel="stylesheet" type="text/css"/>
+-<script type="text/javascript" src="jquery.js"></script>
++<script type="text/javascript" src="/usr/share/javascript/jquery/jquery.min.js"></script>
+ <script type="text/javascript" src="dynsections.js"></script>
+ <link href="search/search.css" rel="stylesheet" type="text/css"/>
+ <script type="text/javascript" src="search/search.js"></script>
+diff --git a/api-docs/html/functions_vars.html b/api-docs/html/functions_vars.html
+index 208b5b5..d516e73 100644
+--- a/api-docs/html/functions_vars.html
++++ b/api-docs/html/functions_vars.html
+@@ -5,7 +5,7 @@
+ <meta http-equiv="X-UA-Compatible" content="IE=9"/>
+ <title>Lutok: Class Members - Variables</title>
+ <link href="tabs.css" rel="stylesheet" type="text/css"/>
+-<script type="text/javascript" src="jquery.js"></script>
++<script type="text/javascript" src="/usr/share/javascript/jquery/jquery.min.js"></script>
+ <script type="text/javascript" src="dynsections.js"></script>
+ <link href="search/search.css" rel="stylesheet" type="text/css"/>
+ <script type="text/javascript" src="search/search.js"></script>
+diff --git a/api-docs/html/globals.html b/api-docs/html/globals.html
+index 9dd52ea..9c5f0ef 100644
+--- a/api-docs/html/globals.html
++++ b/api-docs/html/globals.html
+@@ -5,7 +5,7 @@
+ <meta http-equiv="X-UA-Compatible" content="IE=9"/>
+ <title>Lutok: File Members</title>
+ <link href="tabs.css" rel="stylesheet" type="text/css"/>
+-<script type="text/javascript" src="jquery.js"></script>
++<script type="text/javascript" src="/usr/share/javascript/jquery/jquery.min.js"></script>
+ <script type="text/javascript" src="dynsections.js"></script>
+ <link href="search/search.css" rel="stylesheet" type="text/css"/>
+ <script type="text/javascript" src="search/search.js"></script>
+diff --git a/api-docs/html/globals_defs.html b/api-docs/html/globals_defs.html
+index b2ff931..f564e7f 100644
+--- a/api-docs/html/globals_defs.html
++++ b/api-docs/html/globals_defs.html
+@@ -5,7 +5,7 @@
+ <meta http-equiv="X-UA-Compatible" content="IE=9"/>
+ <title>Lutok: File Members</title>
+ <link href="tabs.css" rel="stylesheet" type="text/css"/>
+-<script type="text/javascript" src="jquery.js"></script>
++<script type="text/javascript" src="/usr/share/javascript/jquery/jquery.min.js"></script>
+ <script type="text/javascript" src="dynsections.js"></script>
+ <link href="search/search.css" rel="stylesheet" type="text/css"/>
+ <script type="text/javascript" src="search/search.js"></script>
+diff --git a/api-docs/html/hierarchy.html b/api-docs/html/hierarchy.html
+index 9f44cb4..0f45b35 100644
+--- a/api-docs/html/hierarchy.html
++++ b/api-docs/html/hierarchy.html
+@@ -5,7 +5,7 @@
+ <meta http-equiv="X-UA-Compatible" content="IE=9"/>
+ <title>Lutok: Class Hierarchy</title>
+ <link href="tabs.css" rel="stylesheet" type="text/css"/>
+-<script type="text/javascript" src="jquery.js"></script>
++<script type="text/javascript" src="/usr/share/javascript/jquery/jquery.min.js"></script>
+ <script type="text/javascript" src="dynsections.js"></script>
+ <link href="search/search.css" rel="stylesheet" type="text/css"/>
+ <script type="text/javascript" src="search/search.js"></script>
+diff --git a/api-docs/html/index.html b/api-docs/html/index.html
+index 3972142..983aa45 100644
+--- a/api-docs/html/index.html
++++ b/api-docs/html/index.html
+@@ -5,7 +5,7 @@
+ <meta http-equiv="X-UA-Compatible" content="IE=9"/>
+ <title>Lutok: Main Page</title>
+ <link href="tabs.css" rel="stylesheet" type="text/css"/>
+-<script type="text/javascript" src="jquery.js"></script>
++<script type="text/javascript" src="/usr/share/javascript/jquery/jquery.min.js"></script>
+ <script type="text/javascript" src="dynsections.js"></script>
+ <link href="search/search.css" rel="stylesheet" type="text/css"/>
+ <script type="text/javascript" src="search/search.js"></script>
+diff --git a/api-docs/html/namespacemembers.html b/api-docs/html/namespacemembers.html
+index 230991f..626ca0e 100644
+--- a/api-docs/html/namespacemembers.html
++++ b/api-docs/html/namespacemembers.html
+@@ -5,7 +5,7 @@
+ <meta http-equiv="X-UA-Compatible" content="IE=9"/>
+ <title>Lutok: Namespace Members</title>
+ <link href="tabs.css" rel="stylesheet" type="text/css"/>
+-<script type="text/javascript" src="jquery.js"></script>
++<script type="text/javascript" src="/usr/share/javascript/jquery/jquery.min.js"></script>
+ <script type="text/javascript" src="dynsections.js"></script>
+ <link href="search/search.css" rel="stylesheet" type="text/css"/>
+ <script type="text/javascript" src="search/search.js"></script>
+diff --git a/api-docs/html/namespacemembers_func.html b/api-docs/html/namespacemembers_func.html
+index 3040efb..a09236e 100644
+--- a/api-docs/html/namespacemembers_func.html
++++ b/api-docs/html/namespacemembers_func.html
+@@ -5,7 +5,7 @@
+ <meta http-equiv="X-UA-Compatible" content="IE=9"/>
+ <title>Lutok: Namespace Members</title>
+ <link href="tabs.css" rel="stylesheet" type="text/css"/>
+-<script type="text/javascript" src="jquery.js"></script>
++<script type="text/javascript" src="/usr/share/javascript/jquery/jquery.min.js"></script>
+ <script type="text/javascript" src="dynsections.js"></script>
+ <link href="search/search.css" rel="stylesheet" type="text/css"/>
+ <script type="text/javascript" src="search/search.js"></script>
+diff --git a/api-docs/html/namespaces.html b/api-docs/html/namespaces.html
+index af8651c..5f1ade7 100644
+--- a/api-docs/html/namespaces.html
++++ b/api-docs/html/namespaces.html
+@@ -5,7 +5,7 @@
+ <meta http-equiv="X-UA-Compatible" content="IE=9"/>
+ <title>Lutok: Namespace List</title>
+ <link href="tabs.css" rel="stylesheet" type="text/css"/>
+-<script type="text/javascript" src="jquery.js"></script>
++<script type="text/javascript" src="/usr/share/javascript/jquery/jquery.min.js"></script>
+ <script type="text/javascript" src="dynsections.js"></script>
+ <link href="search/search.css" rel="stylesheet" type="text/css"/>
+ <script type="text/javascript" src="search/search.js"></script>

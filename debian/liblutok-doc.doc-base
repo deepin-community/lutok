@@ -1,0 +1,8 @@
+Document: liblutok-doc
+Title: Lutok documentation
+Author: Julio Merino
+Section: Help/FAQ
+
+Format: HTML
+Index: /usr/share/doc/liblutok-doc/html/index.html
+Files: /usr/share/doc/liblutok-doc/html/*.html

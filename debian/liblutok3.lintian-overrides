@@ -1,0 +1,2 @@
+# WONTFIX, symbols change across architectures, so let's trust dh_makeshlibs
+liblutok3: no-symbols-control-file *

@@ -1,0 +1,76 @@
+Source: lutok
+Priority: optional
+Maintainer: Nicolas Braud-Santoni <nicoo@debian.org>
+Build-Depends: debhelper-compat (= 12), pkg-config,
+               lua5.2, liblua5.2-dev
+Standards-Version: 4.4.1
+Section: libs
+Homepage: https://github.com/jmmv/lutok/
+Vcs-Browser: https://salsa.debian.org/debian/lutok
+Vcs-Git: https://salsa.debian.org/debian/lutok.git
+
+Package: liblutok-dev
+Section: libdevel
+Architecture: any
+Multi-Arch: same
+Depends: liblutok3 (= ${binary:Version}), liblua5.2-dev, ${misc:Depends}
+Description: lightweight C++ API library for Lua -- development files
+ Lutok provides thin C++ wrappers around the Lua C API to ease the
+ interaction between C++ and Lua.  These wrappers make intensive use of
+ RAII to prevent resource leakage, expose C++-friendly data types, report
+ errors by means of exceptions and ensure that the Lua stack is always
+ left untouched in the face of errors.  The library also provides a small
+ subset of miscellaneous utility functions built on top of the wrappers.
+ .
+ Lutok focuses on providing a clean and safe C++ interface; the drawback
+ is that it is not suitable for performance-critical environments.  In
+ order to implement error-safe C++ wrappers on top of a Lua C binary
+ library, Lutok adds several layers or abstraction and error checking
+ that go against the original spirit of the Lua C API and thus degrade
+ performance.
+ .
+ This package contains development files (headers, pkg-config files, ...)
+
+Package: liblutok-doc
+Section: doc
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}
+Suggests: liblutok-dev (= ${binary:Version})
+Description: lightweight C++ API library for Lua -- documentation
+ Lutok provides thin C++ wrappers around the Lua C API to ease the
+ interaction between C++ and Lua.  These wrappers make intensive use of
+ RAII to prevent resource leakage, expose C++-friendly data types, report
+ errors by means of exceptions and ensure that the Lua stack is always
+ left untouched in the face of errors.  The library also provides a small
+ subset of miscellaneous utility functions built on top of the wrappers.
+ .
+ Lutok focuses on providing a clean and safe C++ interface; the drawback
+ is that it is not suitable for performance-critical environments.  In
+ order to implement error-safe C++ wrappers on top of a Lua C binary
+ library, Lutok adds several layers or abstraction and error checking
+ that go against the original spirit of the Lua C API and thus degrade
+ performance.
+ .
+ This package contains the developer documentation & API reference.
+
+Package: liblutok3
+Architecture: any
+Multi-Arch: same
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: lightweight C++ API library for Lua -- shared object
+ Lutok provides thin C++ wrappers around the Lua C API to ease the
+ interaction between C++ and Lua.  These wrappers make intensive use of
+ RAII to prevent resource leakage, expose C++-friendly data types, report
+ errors by means of exceptions and ensure that the Lua stack is always
+ left untouched in the face of errors.  The library also provides a small
+ subset of miscellaneous utility functions built on top of the wrappers.
+ .
+ Lutok focuses on providing a clean and safe C++ interface; the drawback
+ is that it is not suitable for performance-critical environments.  In
+ order to implement error-safe C++ wrappers on top of a Lua C binary
+ library, Lutok adds several layers or abstraction and error checking
+ that go against the original spirit of the Lua C API and thus degrade
+ performance.
+ .
+ This package contains the linkable shared object.
